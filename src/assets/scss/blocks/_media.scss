@@ -1,0 +1,122 @@
+
+@media(max-device-width:1230px){
+// header banner
+.banner_wrapper{
+    .banner-title{
+        font-size: 35px;
+    }
+    .banner-subtitle{
+        font-size: 20px;
+    }
+    .banner-title-text{
+        font-size: 15px;
+    }
+}
+.progress-wrap{
+  right: 20px;
+  bottom:60px;
+}
+}
+@media(max-device-width:992px){
+    .banner_wrapper{
+        .banner-title{
+            font-size: 20px;
+        }
+        .banner-subtitle{
+            font-size: 16px;
+        }
+        .banner-title-text{
+            font-size: 14px;
+        }
+    }
+    footer{
+      margin-top: 100px;
+    }
+}
+
+@media only screen and (max-device-width: 720px) { 
+    // media nav start
+    .features {
+      flex-direction: column;
+      padding: 50px;
+    }
+
+    // mobile headings
+    h1 {
+      font-size: 1.9rem;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    p {
+      font-size: 0.8rem;
+    }
+    
+    // mobile nav
+       
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      justify-content: start;
+      top: 55px;
+      background-color: #fff;
+      width: 100%;
+      height: calc(100vh - 55px);
+      transform: translate(-101%);
+      text-align: center;
+      overflow: hidden;
+    }
+    
+    .navbar li {
+      padding: 15px;
+    }
+    
+    .navbar li:first-child {
+      margin-top: 50px;
+    }
+    
+    .navbar li a {
+      font-size: 1rem;
+    }
+     
+    .menu-toggle, .bar {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .mobile-nav {
+    transform: translate(0%)!important;
+  }
+    //   header banner
+    .banner_wrapper{
+        padding: 50px 0 50px;
+        .row{
+            flex-direction: column-reverse;
+        }
+        .learn-more-btn-section{
+            justify-content: center;
+        }
+        .banner-title{
+            text-align: center !important;
+            font-size: 1.8rem !important;
+        }
+        .banner-subtitle{
+            text-align: center !important;
+            font-size: 1.5rem;
+        }
+        .banner-title-text{
+            text-align: center !important;
+            font-size: 1.3rem;
+            max-width:unset;
+        }
+      }
+    footer{
+      margin-top: 50px;
+    }
+    .progress-wrap{
+      display: none;
+    }
+  }
